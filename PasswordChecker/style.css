@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#password{
+    width: 350px;
+    padding: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgb(160, 158, 158);
+}
+#password:focus{
+    outline: none;
+}
