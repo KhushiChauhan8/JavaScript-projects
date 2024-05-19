@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #08203E, #557C93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-password{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    width: 350px;
+    background-color: white;
+}
+
+.header{
+    background: linear-gradient(45deg, #000328, #00458e);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.display{
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#pass-input{
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#copy{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    background: linear-gradient(45deg, #000328, #00458e);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    width: 20%;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 7.5px 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#length-number{
+    width: 11%;
+}
+
+#generate{
+    display: block;
+    width: 100%;
+    padding: 7.5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, #000328, #00458e);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+}
