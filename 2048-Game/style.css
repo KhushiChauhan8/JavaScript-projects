@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    background-color: #bbada0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.tile[data-value="2"] {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.tile[data-value="4"] {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.tile[data-value="8"] {
+    background-color: #f2b179;
+    color: #f9f6f2;
+}
+
+/* Add more styles for higher values as needed */

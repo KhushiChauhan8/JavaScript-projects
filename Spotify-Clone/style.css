@@ -27,11 +27,13 @@ nav ul{
 
 nav ul li{
     padding: 0 12px;
+   
 }
 
 .brand img{
    width: 44px;
    padding: 0 8px;
+   background-repeat: repeat;
 }
 
 .brand{

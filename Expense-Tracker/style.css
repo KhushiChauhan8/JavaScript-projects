@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #0a0a0a, #3a4452);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.balance {
+    margin-bottom: 20px;
+}
+
+.inc-exp-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.inc-exp-container div {
+    text-align: center;
+    flex: 1;
+}
+
+.inc-exp-container div:first-of-type {
+    border-right: 1px solid #ddd;
+}
+
+.money {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.plus {
+    color: #27ae60;
+}
+
+.minus {
+    color: #c0392b;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.list li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 5px solid;
+}
+
+.list li.minus {
+    border-color: #c0392b;
+}
+
+.list li.plus {
+    border-color: #27ae60;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    cursor: pointer;
+    background: linear-gradient(to right, blue, rgb(2, 2, 22));
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, rgb(2, 2, 61), rgb(1, 1, 42));
+}
+

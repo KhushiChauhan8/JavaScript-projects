@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Markdown Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+</head>
+<body>
+    <div id="editor-container">
+        <div id="toolbar">
+            <button onclick="formatMarkdown('bold')">Bold</button>
+            <button onclick="formatMarkdown('italic')">Italic</button>
+            <button onclick="formatMarkdown('heading')">Heading</button>
+            <button onclick="saveFile()">Save</button>
+            <input type="file" id="file-input" style="display: none;" onchange="loadFile(event)">
+            <button onclick="document.getElementById('file-input').click()">Load</button>
+        </div>
+        <textarea id="markdown-input" placeholder="Type your markdown here..."></textarea>
+        <div id="html-preview"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.2.0/dist/markdown-it.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

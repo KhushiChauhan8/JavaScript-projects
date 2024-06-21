@@ -16,6 +16,7 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+  
 }
 
 .color-card{
@@ -29,4 +30,5 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
